@@ -12,6 +12,7 @@
 #import "ITunesEntity.h"
 #import "UIImageView+AFNetworking.h"
 #import "NSParagraphStyle+ByWordWrapping.h"
+#import "TrackDetailsViewController.h"
 
 @interface SearchViewController () <UISearchResultsUpdating, UISearchBarDelegate, NSFetchedResultsControllerDelegate>
 
@@ -51,19 +52,19 @@
 }
 
 - (NSURL *)artworkImageUrlForEntity:(ITunesEntity *)entity {
-	CGSize size;
+	CGFloat size;
 	if ([[UIScreen mainScreen] scale] >= 3) {
-		size = CGSizeMake(180, 180);
+		size = 180;
 	} else if ([[UIScreen mainScreen] scale] == 2) {
-		size = CGSizeMake(120, 120);
+		size = 120;
 	} else {
-		size = CGSizeMake(60, 60);
+		size = 60;
 	}
 	NSURL *result = nil;
 	if (entity.artworkUrl100.length > 0) {
-		result = [NSURL URLWithString:[entity.artworkUrl100 stringByReplacingOccurrencesOfString:@"100x100" withString:[NSString stringWithFormat:@"%.0fx%.0f", size.width, size.height]]];
+		result = [NSURL URLWithString:[entity.artworkUrl100 stringByReplacingOccurrencesOfString:@"100x100" withString:[NSString stringWithFormat:@"%.0fx%.0f", size, size]]];
 	} else if (entity.artworkUrl60.length > 0) {
-		result = [NSURL URLWithString:[entity.artworkUrl60 stringByReplacingOccurrencesOfString:@"60x60" withString:[NSString stringWithFormat:@"%.0fx%.0f", size.width, size.height]]];
+		result = [NSURL URLWithString:[entity.artworkUrl60 stringByReplacingOccurrencesOfString:@"60x60" withString:[NSString stringWithFormat:@"%.0fx%.0f", size, size]]];
 	}
 	return result;
 }
@@ -90,7 +91,9 @@
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-
+	ITunesEntity *entity = [self.fetchedResultsController objectAtIndexPath:self.tableView.indexPathForSelectedRow];
+	TrackDetailsViewController *trackDetailsViewController = segue.destinationViewController;
+	trackDetailsViewController.entity = entity;
 }
 
 
@@ -126,7 +129,7 @@
 																			   NSParagraphStyleAttributeName : [NSParagraphStyle paragraphStyleWithByWordWrapping]
 																	   } context:nil].size;
 
-	return MAX(10 + 60 + 10, 10 + trackNameSize.height + 8 + detailsSize.height + 10);
+	return MAX(10 + 60 + 10, 10 + trackNameSize.height + 4 + detailsSize.height + 10);
 }
 
 

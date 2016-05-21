@@ -13,12 +13,14 @@
 		5CB2E091E0E38270F064AA0D /* TrackSearchOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB2E8A7380807DA5841BA9F /* TrackSearchOperation.m */; };
 		5CB2E0F89AEC641D6E520B69 /* ApiRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB2E34B8B69E5BD785EBC26 /* ApiRequestOperation.m */; };
 		5CB2E18EB53C0313027DC624 /* iTunesSearch.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 5CB2EA4A6D9FA5684B980408 /* iTunesSearch.xcdatamodel */; };
+		5CB2E1ABDDF93EDA3EEB002B /* TrackDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB2E9B9CA2D26AF853161FB /* TrackDetailsViewController.m */; };
 		5CB2E2A4EF351284A3D2490C /* UIApplication+NetworkActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB2E6E13749E5A0F55D48C3 /* UIApplication+NetworkActivity.m */; };
 		5CB2E2C2FB99176F05E47EEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CB2ECE0A9C3FECB755E340B /* Main.storyboard */; };
 		5CB2E3F2A200C0C692E52F14 /* TracksManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB2EDF830C947ADF0D7A146 /* TracksManager.m */; };
 		5CB2E41C97FD264CCA44262C /* NSParagraphStyle+ByWordWrapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB2ED231AC446CA141001E4 /* NSParagraphStyle+ByWordWrapping.m */; };
 		5CB2E4A845A53061CA8DA2C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CB2E46E13478AF3F2D94250 /* LaunchScreen.storyboard */; };
 		5CB2E4F9D5EFA03679DC38CC /* UIApplication+NetworkActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB2E6E13749E5A0F55D48C3 /* UIApplication+NetworkActivity.m */; };
+		5CB2E51FBBA10E6F93EEA5FA /* TrackDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB2E9B9CA2D26AF853161FB /* TrackDetailsViewController.m */; };
 		5CB2E52E806120BC92829E54 /* QueriesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB2EF5FA526D0C367E431DA /* QueriesManager.m */; };
 		5CB2E5584D632F1A6F7784BC /* TracksManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB2EDF830C947ADF0D7A146 /* TracksManager.m */; };
 		5CB2E763D6B867C9C5B6D754 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB2E5B151E7FC3CEF75C5E9 /* SearchViewController.m */; };
@@ -57,6 +59,7 @@
 		5CB2E18DAFB77D23917167B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = iTunesSearch/Base.lproj/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
 		5CB2E198EDAD84071C8AAFB7 /* QueriesManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QueriesManager.h; sourceTree = "<group>"; };
 		5CB2E2E9D9407C01D168B29F /* ApiRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiRequestOperation.h; sourceTree = "<group>"; };
+		5CB2E30930A56F16279CF856 /* TrackDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackDetailsViewController.h; sourceTree = "<group>"; };
 		5CB2E316B11204B2E1B0ECFC /* TracksManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TracksManager.h; sourceTree = "<group>"; };
 		5CB2E34B8B69E5BD785EBC26 /* ApiRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApiRequestOperation.m; sourceTree = "<group>"; };
 		5CB2E41A51DA29F8994183B4 /* Manager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Manager.m; sourceTree = "<group>"; };
@@ -72,6 +75,7 @@
 		5CB2E8A7380807DA5841BA9F /* TrackSearchOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackSearchOperation.m; sourceTree = "<group>"; };
 		5CB2E901CD1E2E6AF31C794B /* ApiITunes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApiITunes.m; sourceTree = "<group>"; };
 		5CB2E94A5D45DE71880817DD /* TrackSearchOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackSearchOperation.h; sourceTree = "<group>"; };
+		5CB2E9B9CA2D26AF853161FB /* TrackDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackDetailsViewController.m; sourceTree = "<group>"; };
 		5CB2EA4A6D9FA5684B980408 /* iTunesSearch.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iTunesSearch.xcdatamodel; sourceTree = "<group>"; };
 		5CB2EA6E746FFB931661D8A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5CB2EB3F8D68C6AFFAE417F1 /* ApiITunes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiITunes.h; sourceTree = "<group>"; };
@@ -155,6 +159,8 @@
 			children = (
 				5CB2EC896A639676703F943D /* SearchViewController.h */,
 				5CB2E5B151E7FC3CEF75C5E9 /* SearchViewController.m */,
+				5CB2E9B9CA2D26AF853161FB /* TrackDetailsViewController.m */,
+				5CB2E30930A56F16279CF856 /* TrackDetailsViewController.h */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -481,6 +487,7 @@
 				5CB2E0129DB60F6B4F4A1D62 /* TrackSearchOperation.m in Sources */,
 				5CB2E0F89AEC641D6E520B69 /* ApiRequestOperation.m in Sources */,
 				5CB2E41C97FD264CCA44262C /* NSParagraphStyle+ByWordWrapping.m in Sources */,
+				5CB2E1ABDDF93EDA3EEB002B /* TrackDetailsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -499,6 +506,7 @@
 				5CB2E091E0E38270F064AA0D /* TrackSearchOperation.m in Sources */,
 				5CB2E04D22D5AD117C7F5F4D /* ApiRequestOperation.m in Sources */,
 				5CB2ED7A4E33E1BC73719E11 /* NSParagraphStyle+ByWordWrapping.m in Sources */,
+				5CB2E51FBBA10E6F93EEA5FA /* TrackDetailsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
