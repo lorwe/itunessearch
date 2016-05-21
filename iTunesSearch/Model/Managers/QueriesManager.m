@@ -48,4 +48,13 @@
 	return searchQuery;
 }
 
+- (NSArray *)recentQueriesWithTerm:(NSString *)term {
+	NSFetchRequest *request = [NSFetchRequest fetchRequestWithEntityName:@"SearchQuery"];
+	if (term.length > 0) {
+		request.predicate = [NSPredicate predicateWithFormat:@"term CONTAINS[cd] %@", term];
+	}
+	request.sortDescriptors = @[[NSSortDescriptor sortDescriptorWithKey:@"queryDate" ascending:NO]];
+	return [[[Manager sharedManager] managedObjectContext] executeFetchRequest:request error:nil];
+}
+
 @end

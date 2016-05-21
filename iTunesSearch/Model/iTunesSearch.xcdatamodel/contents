@@ -8,6 +8,7 @@
         <attribute name="collectionId" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
         <attribute name="collectionName" attributeType="String" syncable="YES"/>
         <attribute name="kind" attributeType="String" syncable="YES"/>
+        <attribute name="primaryGenreName" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="releaseDate" optional="YES" attributeType="Date" syncable="YES"/>
         <attribute name="trackId" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
         <attribute name="trackName" optional="YES" attributeType="String" syncable="YES"/>
@@ -20,7 +21,7 @@
         <relationship name="entities" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ITunesEntity" inverseName="searchQueries" inverseEntity="ITunesEntity" syncable="YES"/>
     </entity>
     <elements>
-        <element name="ITunesEntity" positionX="-63" positionY="-18" width="128" height="225"/>
+        <element name="ITunesEntity" positionX="-63" positionY="-18" width="128" height="240"/>
         <element name="SearchQuery" positionX="-54" positionY="72" width="128" height="90"/>
     </elements>
 </model>

@@ -39,7 +39,6 @@
 
 											 // check if response is valid
 											 NSError *error = nil;
-											 NSArray *results = nil;
 											 if (![responseObject isKindOfClass:[NSDictionary class]]
 													 || ![responseObject[@"results"] isKindOfClass:[NSArray class]]) {
 												 error = [NSError errorWithDomain:APP_DOMAIN code:0 userInfo:@{NSLocalizedDescriptionKey : @"Invalid response"}];
@@ -53,7 +52,7 @@
 											 }
 
 											 if ([self.delegate respondsToSelector:@selector(didSearchQuery: withResults:)]) {
-												 [self.delegate didSearchQuery:_query withResults:results];
+												 [self.delegate didSearchQuery:_query withResults:responseObject[@"results"]];
 											 }
 										 }
 

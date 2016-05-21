@@ -9,6 +9,7 @@
 
 @implementation Manager {
 	QueriesManager *_queries;
+	TracksManager *_tracks;
 
 	NSManagedObjectContext *_managedObjectContext;
 	NSManagedObjectContext *_parentManagedObjectContext;
@@ -30,6 +31,13 @@
 		_queries = [QueriesManager new];
 	}
 	return _queries;
+}
+
+- (TracksManager *)tracks {
+	if (!_tracks) {
+		_tracks = [TracksManager new];
+	}
+	return _tracks;
 }
 
 
@@ -78,9 +86,9 @@
 	}
 #pragma clang diagnostic push
 #pragma ide diagnostic ignored "ResourceNotFoundInspection"
-	NSURL *modelURL = [[NSBundle mainBundle] URLForResource:@"Afisha" withExtension:@"momd"];
+	NSURL *modelURL = [[NSBundle mainBundle] URLForResource:@"iTunesSearch" withExtension:@"momd"];
 	if (modelURL == nil) {
-		modelURL = [[NSBundle mainBundle] URLForResource:@"Afisha" withExtension:@"mom"];
+		modelURL = [[NSBundle mainBundle] URLForResource:@"iTunesSearch" withExtension:@"mom"];
 	}
 #pragma clang diagnostic pop
 	_managedObjectModel = [[NSManagedObjectModel alloc] initWithContentsOfURL:modelURL];

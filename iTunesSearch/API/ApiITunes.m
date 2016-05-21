@@ -86,13 +86,20 @@ static NSMutableDictionary *_instance = nil;
 	[request setTimeoutInterval:10.0];
 	// Set additional headers if it is necessary
 
+	[[UIApplication sharedApplication] setNetworkActivity:YES];
+
 	NSURLSessionDataTask *dataTask = [self.sessionManager dataTaskWithRequest:request
 															completionHandler:^(NSURLResponse *response, id responseObject, NSError *_error) {
+																[[UIApplication sharedApplication] setNetworkActivity:NO];
 																if (_error) {
 																	failure(dataTask, _error);
 																}
 																success(dataTask, responseObject);
 															}];
+
+#ifdef DEBUG
+	NSLog(@"[API] %@", request.URL);
+#endif
 
 	[dataTask resume];
 

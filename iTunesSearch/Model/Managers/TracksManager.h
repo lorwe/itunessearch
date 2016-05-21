@@ -11,6 +11,11 @@
 @interface TracksManager : NSObject
 
 /**
+ * Returns YES if search operations are in progress
+ */
+- (BOOL)isLoading;
+
+/**
  * Performs search request
  */
 - (void)searchTrackWithQuery:(SearchQuery *)query;

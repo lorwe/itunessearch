@@ -25,5 +25,6 @@
 @dynamic artistId;
 @dynamic releaseDate;
 @dynamic searchQueries;
+@dynamic primaryGenreName;
 
 @end

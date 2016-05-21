@@ -22,6 +22,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nullable, nonatomic, retain) NSString *collectionName;
 @property(nullable, nonatomic, retain) NSString *artworkUrl100;
 @property(nullable, nonatomic, retain) NSString *artworkUrl60;
+@property(nullable, nonatomic, retain) NSString *primaryGenreName;
 @property(nullable, nonatomic, retain) NSNumber *trackId;
 @property(nullable, nonatomic, retain) NSNumber *collectionId;
 @property(nullable, nonatomic, retain) NSNumber *artistId;

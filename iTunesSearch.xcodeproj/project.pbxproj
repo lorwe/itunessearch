@@ -16,15 +16,17 @@
 		5CB2E2A4EF351284A3D2490C /* UIApplication+NetworkActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB2E6E13749E5A0F55D48C3 /* UIApplication+NetworkActivity.m */; };
 		5CB2E2C2FB99176F05E47EEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CB2ECE0A9C3FECB755E340B /* Main.storyboard */; };
 		5CB2E3F2A200C0C692E52F14 /* TracksManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB2EDF830C947ADF0D7A146 /* TracksManager.m */; };
+		5CB2E41C97FD264CCA44262C /* NSParagraphStyle+ByWordWrapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB2ED231AC446CA141001E4 /* NSParagraphStyle+ByWordWrapping.m */; };
 		5CB2E4A845A53061CA8DA2C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CB2E46E13478AF3F2D94250 /* LaunchScreen.storyboard */; };
 		5CB2E4F9D5EFA03679DC38CC /* UIApplication+NetworkActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB2E6E13749E5A0F55D48C3 /* UIApplication+NetworkActivity.m */; };
 		5CB2E52E806120BC92829E54 /* QueriesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB2EF5FA526D0C367E431DA /* QueriesManager.m */; };
 		5CB2E5584D632F1A6F7784BC /* TracksManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB2EDF830C947ADF0D7A146 /* TracksManager.m */; };
-		5CB2E763D6B867C9C5B6D754 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB2E5B151E7FC3CEF75C5E9 /* ViewController.m */; };
+		5CB2E763D6B867C9C5B6D754 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB2E5B151E7FC3CEF75C5E9 /* SearchViewController.m */; };
 		5CB2E8320552F6C53E460518 /* ApiITunesSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB2E671172EAF79F737347A /* ApiITunesSearch.m */; };
 		5CB2EAB59E7192D01A4F5403 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CB2EA6E746FFB931661D8A8 /* Assets.xcassets */; };
 		5CB2ECE44ED62ABDDDC3677A /* ApiITunes.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB2E901CD1E2E6AF31C794B /* ApiITunes.m */; };
 		5CB2ED23651E5FBC0EE13D66 /* Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB2E41A51DA29F8994183B4 /* Manager.m */; };
+		5CB2ED7A4E33E1BC73719E11 /* NSParagraphStyle+ByWordWrapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB2ED231AC446CA141001E4 /* NSParagraphStyle+ByWordWrapping.m */; };
 		5CB2EEEEEBEA04981FE58198 /* QueriesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB2EF5FA526D0C367E431DA /* QueriesManager.m */; };
 		5CB2EF49EFE0917256E59647 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB2E78AED423F13D6ADC037 /* AppDelegate.m */; };
 		75ACD7431CF05EF200C87C6F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75ACD7421CF05EF200C87C6F /* main.m */; };
@@ -58,8 +60,9 @@
 		5CB2E316B11204B2E1B0ECFC /* TracksManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TracksManager.h; sourceTree = "<group>"; };
 		5CB2E34B8B69E5BD785EBC26 /* ApiRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApiRequestOperation.m; sourceTree = "<group>"; };
 		5CB2E41A51DA29F8994183B4 /* Manager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Manager.m; sourceTree = "<group>"; };
+		5CB2E45A931C594296C2EBAA /* NSParagraphStyle+ByWordWrapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSParagraphStyle+ByWordWrapping.h"; sourceTree = "<group>"; };
 		5CB2E4A9915998ECDE514F4A /* UIApplication+NetworkActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+NetworkActivity.h"; sourceTree = "<group>"; };
-		5CB2E5B151E7FC3CEF75C5E9 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5CB2E5B151E7FC3CEF75C5E9 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
 		5CB2E671172EAF79F737347A /* ApiITunesSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApiITunesSearch.m; sourceTree = "<group>"; };
 		5CB2E6E13749E5A0F55D48C3 /* UIApplication+NetworkActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+NetworkActivity.m"; sourceTree = "<group>"; };
 		5CB2E6FD535663B8BB32A9A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = iTunesSearch/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
@@ -73,7 +76,8 @@
 		5CB2EA6E746FFB931661D8A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5CB2EB3F8D68C6AFFAE417F1 /* ApiITunes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiITunes.h; sourceTree = "<group>"; };
 		5CB2EBB7ED8E7F31EF3209EB /* ApiITunesSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiITunesSearch.h; sourceTree = "<group>"; };
-		5CB2EC896A639676703F943D /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5CB2EC896A639676703F943D /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		5CB2ED231AC446CA141001E4 /* NSParagraphStyle+ByWordWrapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSParagraphStyle+ByWordWrapping.m"; sourceTree = "<group>"; };
 		5CB2EDF830C947ADF0D7A146 /* TracksManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TracksManager.m; sourceTree = "<group>"; };
 		5CB2EE027880BA874BC1F079 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5CB2EF5FA526D0C367E431DA /* QueriesManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QueriesManager.m; sourceTree = "<group>"; };
@@ -138,10 +142,10 @@
 			children = (
 				5CB2EE3E9CFEAD440936F101 /* CoreData */,
 				5CB2EE92ED51AD1AAF8ED5D9 /* Managers */,
+				5CB2EB55613AC77C0A917895 /* Operations */,
 				5CB2E7D9BBF3F647503144E7 /* Manager.h */,
 				5CB2E41A51DA29F8994183B4 /* Manager.m */,
 				5CB2EA4A6D9FA5684B980408 /* iTunesSearch.xcdatamodel */,
-				5CB2EB55613AC77C0A917895 /* Operations */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -149,8 +153,8 @@
 		5CB2E4B2A641CAEF7B721B71 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				5CB2EC896A639676703F943D /* ViewController.h */,
-				5CB2E5B151E7FC3CEF75C5E9 /* ViewController.m */,
+				5CB2EC896A639676703F943D /* SearchViewController.h */,
+				5CB2E5B151E7FC3CEF75C5E9 /* SearchViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -166,11 +170,20 @@
 			path = API;
 			sourceTree = "<group>";
 		};
+		5CB2E83B62439E3F3C5F3C1E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		5CB2EA009F7F5ACA493CA9F9 /* Library */ = {
 			isa = PBXGroup;
 			children = (
 				5CB2E6E13749E5A0F55D48C3 /* UIApplication+NetworkActivity.m */,
 				5CB2E4A9915998ECDE514F4A /* UIApplication+NetworkActivity.h */,
+				5CB2ED231AC446CA141001E4 /* NSParagraphStyle+ByWordWrapping.m */,
+				5CB2E45A931C594296C2EBAA /* NSParagraphStyle+ByWordWrapping.h */,
 			);
 			path = Library;
 			sourceTree = "<group>";
@@ -260,6 +273,7 @@
 				5CB2E4511BF9E5B64B005C1D /* Model */,
 				5CB2E06019F69E35843E1C49 /* Resources */,
 				75ACD7411CF05EF200C87C6F /* Supporting Files */,
+				5CB2E83B62439E3F3C5F3C1E /* Views */,
 			);
 			path = iTunesSearch;
 			sourceTree = "<group>";
@@ -452,7 +466,7 @@
 			files = (
 				75ACD7431CF05EF200C87C6F /* main.m in Sources */,
 				5CB2EF49EFE0917256E59647 /* AppDelegate.m in Sources */,
-				5CB2E763D6B867C9C5B6D754 /* ViewController.m in Sources */,
+				5CB2E763D6B867C9C5B6D754 /* SearchViewController.m in Sources */,
 				5CB2E18EB53C0313027DC624 /* iTunesSearch.xcdatamodel in Sources */,
 				75ACD7751CF07BD600C87C6F /* ITunesEntity+CoreDataProperties.m in Sources */,
 				75ACD7711CF07BD600C87C6F /* SearchQuery+CoreDataProperties.m in Sources */,
@@ -466,6 +480,7 @@
 				5CB2EEEEEBEA04981FE58198 /* QueriesManager.m in Sources */,
 				5CB2E0129DB60F6B4F4A1D62 /* TrackSearchOperation.m in Sources */,
 				5CB2E0F89AEC641D6E520B69 /* ApiRequestOperation.m in Sources */,
+				5CB2E41C97FD264CCA44262C /* NSParagraphStyle+ByWordWrapping.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,6 +498,7 @@
 				5CB2E52E806120BC92829E54 /* QueriesManager.m in Sources */,
 				5CB2E091E0E38270F064AA0D /* TrackSearchOperation.m in Sources */,
 				5CB2E04D22D5AD117C7F5F4D /* ApiRequestOperation.m in Sources */,
+				5CB2ED7A4E33E1BC73719E11 /* NSParagraphStyle+ByWordWrapping.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -608,6 +624,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.farid.iTunesSearch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
 			};
 			name = Debug;
 		};
@@ -621,6 +638,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.farid.iTunesSearch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
 			};
 			name = Release;
 		};

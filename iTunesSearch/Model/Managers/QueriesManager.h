@@ -20,4 +20,9 @@
  */
 - (nullable SearchQuery *)queryWithTerm:(nullable NSString *)term;
 
+/**
+ * Returns array of recent searches with terms matching the string given
+ */
+- (nonnull NSArray *)recentQueriesWithTerm:(nullable NSString *)term;
+
 @end

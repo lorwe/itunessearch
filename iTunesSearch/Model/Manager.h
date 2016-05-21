@@ -6,6 +6,7 @@
 #import <Foundation/Foundation.h>
 #import <CoreData/CoreData.h>
 #import "QueriesManager.h"
+#import "TracksManager.h"
 
 
 /**
@@ -17,6 +18,11 @@
  * Queries Manager
  */
 @property(nonatomic, readonly) QueriesManager *queries;
+
+/**
+ * Tracks Manager
+ */
+@property(nonatomic, readonly) TracksManager *tracks;
 
 /**
  * Singleton
