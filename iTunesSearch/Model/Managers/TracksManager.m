@@ -52,6 +52,7 @@
 	NSLog(@"Got results: %d", results.count);
 
 	NSDateFormatter *dateFormatter = [NSDateFormatter new];
+	dateFormatter.dateFormat = @"yyyy-MM-dd'T'HH:mm:ssZ";
 
 	[_storeContext performBlock:^{
 		for (id item in results) {

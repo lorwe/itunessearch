@@ -36,7 +36,7 @@
 	self.lblGenre.text = _entity.primaryGenreName;
 
 	NSDateFormatter *dateFormatter = [NSDateFormatter new];
-	dateFormatter.dateFormat = @"dd.MM.yyyy";
+	dateFormatter.dateFormat = @"dd/MM/yyyy";
 	self.lblReleaseDate.text = [dateFormatter stringFromDate:_entity.releaseDate];
 
 	NSURL *artWorkUrl = [self artworkImageUrlForEntity:_entity];
