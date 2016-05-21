@@ -73,6 +73,7 @@
 		5CB2E7D9BBF3F647503144E7 /* Manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Manager.h; sourceTree = "<group>"; };
 		5CB2E7EA64082A8C8C2E8B90 /* iTunesSearch-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "iTunesSearch-Prefix.pch"; sourceTree = "<group>"; };
 		5CB2E8A7380807DA5841BA9F /* TrackSearchOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackSearchOperation.m; sourceTree = "<group>"; };
+		5CB2E8C9227A071B9CDDF0CC /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = file.gitignore; path = .gitignore; sourceTree = "<group>"; };
 		5CB2E901CD1E2E6AF31C794B /* ApiITunes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApiITunes.m; sourceTree = "<group>"; };
 		5CB2E94A5D45DE71880817DD /* TrackSearchOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackSearchOperation.h; sourceTree = "<group>"; };
 		5CB2E9B9CA2D26AF853161FB /* TrackDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackDetailsViewController.m; sourceTree = "<group>"; };
@@ -257,6 +258,7 @@
 				75ACD73F1CF05EF200C87C6F /* Products */,
 				6E7E6C94FC2A66BCD7C71360 /* Pods */,
 				135D3EC332580694F74E1038 /* Frameworks */,
+				5CB2E8C9227A071B9CDDF0CC /* .gitignore */,
 			);
 			sourceTree = "<group>";
 		};
